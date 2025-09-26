@@ -9,4 +9,5 @@ public record FroggerID(String firstName,
                      String zipCode,
                      String state,
                      String gender) {
+    
 }
