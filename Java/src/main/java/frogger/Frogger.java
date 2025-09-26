@@ -44,9 +44,9 @@ public class Frogger {
     }
 
     // TODO: Do you notice any issues here?
+    // feature envy: isOccupied method should be in Road class
     public boolean isOccupied(int position) {
-        boolean[] occupied = this.road.getOccupied();
-        return occupied[position];
+        return this.road.isOccupied(position);
     }
     
     public boolean isValid(int position) {
